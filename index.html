@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CareerFinders WEBSITE</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header id="header">
+    <div class="container">
+      <div class="popupline">
+        <div class="hireline1"><a href="index.html">Condidates with flexible plans</a>  
+          <div class="line">&vert;</div> 
+        </div>
+        <div class="hireline2">
+          <a href="index.html">Sign up With CareerFinders &#43; &rarr;</a> 
+          <button class="cross">&#x2715;</button>
+        </div>
+      </div>
+    </div>
+    <nav class="navbar">
+      <div class="logo"> 
+        <img src="image/image.png" alt="logo">
+      </div>
+      <div class="menu">
+        <ul class="menu-ul">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="findjob.html">Jobs</a></li>
+         
+          <li><a href="insight.html">Insights</a></li>
+          <li><a href="contact.html">Contact us</a></li>
+          <li><a href="loginoption.html">Login in</a></li>
+          <li class="Register"><a href="signupoption.html" style="color: aliceblue;">Register</a></li>
+          <li><a href="#"><i class="fas fa-language"></i></a></li>
+        </ul>
+      </div>
+      <button class="btn btn-primary mobile-menu-btn"><i class="fa-solid fa-bars"></i></button>
+    </nav>
+    
+    <!-- Mobile Menu (added for responsiveness) -->
+    <div class="mobile-menu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+          <li><a href="findjob.html">Jobs</a></li>
+         
+          <li><a href="insight.html">Insights</a></li>
+          <li><a href="contact.html">Contact us</a></li>
+          <li><a href="loginoption.html">Login in</a></li>
+        <li><a href="signupoption.html">Register</a></li>
+      </ul>
+    </div>
+    
+    <div class="search-container">
+      <div class="search-col">
+        <div class="search-job">
+          <form>
+            <input type="text" placeholder="Search Job">
+          </form>
+        </div>
+        <div class="select-job">
+          <select name="jobs" id="job-select">
+            <option value="">Select Functional Jobs</option>
+            <option value="Web Developer">Web Developer</option>
+            <option value="Frontend Developer">Frontend Developer</option>
+            <option value="Backend Developer">Backend Developer</option>
+            <option value="Full Stack Developer">Full Stack Developer</option>
+            <option value="UI/UX Designer">UI/UX Designer</option>
+            <option value="Graphic Designer">Graphic Designer</option>
+            <option value="Software Engineer">Software Engineer</option>
+          </select>
+        </div>
+        <div class="searchicon">
+          <div class="iconbg">
+            <i class="fas fa-search"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+  <main>
+    <div class="topcompany">
+      <div class="topcompanyline">
+        <h1>Top Companies hiring now</h1>
+        <div>
+          <div class="gridcard-container">
+            <button id="left-arrow" class="arrow-btn" aria-label="Scroll left">&#60;</button>
+            <div class="gridcard">
+              <!-- Card 1 -->
+              <div class="card1" id="card1">
+                <div>
+                  <h3>
+                    <a href="#">Advertising &gt;</a>
+                    <br>
+                    <h5>(1) are actively hiring</h5>
+                    <div class="cmlogo">
+                      <img src="image/autosoft.png" alt="Autosoft Logo">
+                    </div>
+                  </h3>
+                </div>
+              </div>
+              <!-- Card 2 -->
+              <div class="card1" id="card2">
+                <div>
+                  <h3>
+                    <a href="#">Tech Solutions &gt;</a>
+                    <br>
+                    <h5>(3) are actively hiring</h5>
+                    <div class="cmlogo">
+                      <img src="image/cmlogo.jpg" alt="Tech Solutions Logo">
+                      <img src="image/power-wave.jpg" alt="Tech Solutions Logo">
+                    </div>
+                  </h3>
+                </div>
+              </div>
+              <!-- Card 3 -->
+              <div class="card1" id="card3">
+                <div>
+                  <h3>
+                    <a href="#">Creative Minds &gt;</a>
+                    <br>
+                    <h5>(2) are actively hiring</h5>
+                    <div class="cmlogo">
+                      <img src="image/new-design.jpg" alt="Creative Minds Logo">
+                      <img src="image/power3.jpg" alt="Tech Solutions Logo">
+                    </div>
+                  </h3>
+                </div>
+              </div>
+              <!-- Card 4 -->
+              <div class="card1" id="card4">
+                <div>
+                  <h3>
+                    <a href="#">NextGen Corp &gt;</a>
+                    <br>
+                    <h5>(4) are actively hiring</h5>
+                    <div class="cmlogo">
+                      <img src="image/pharm8.jpg" alt="NextGen Corp Logo">
+                    </div>
+                  </h3>
+                </div>
+              </div>
+              <!-- Card 5 -->
+              <div class="card1" id="card5">
+                <div>
+                  <h3>
+                    <a href="#">Bright Future &gt;</a>
+                    <br>
+                    <h5>(2) are actively hiring</h5>
+                    <div class="cmlogo">
+                      <img src="image/pharma.jpg" alt="Bright Future Logo">
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <button id="right-arrow" class="arrow-btn" aria-label="Scroll right">&#62;</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <section>
+      <div class="build">
+        <div class="buildline">
+          <h1>Build your Career now</h1>
+          <h3>1 thousand+ jobs for you to explore</h3>
+        </div>
+        <div class="bsearch-container">
+          <div class="bsearch-col">
+            <div class="bsearch-job">
+              <form>
+                <input type="text" placeholder="Enter your skill or job title">
+              </form>
+            </div>
+            <div class="bselect-job">
+              <select name="jobs" id="job-select">
+                <option value="">Select Functional Jobs</option>
+                <option value="Web Developer">Web Developer</option>
+                <option value="Frontend Developer">Frontend Developer</option>
+                <option value="Backend Developer">Backend Developer</option>
+                <option value="Full Stack Developer">Full Stack Developer</option>
+                <option value="UI/UX Designer">UI/UX Designer</option>
+                <option value="Graphic Designer">Graphic Designer</option>
+                <option value="Software Engineer">Software Engineer</option>
+              </select>
+            </div>
+            <div class="bsearch-btn">
+              <button>Search</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="popularsearch">
+      <h2>Popular Searches</h2>
+      <div class="popular-buttons">
+        <button class="popular-btn">
+          <i class="fas fa-search"></i>
+          <span>Web Developer</span>
+        </button>
+        <button class="popular-btn">
+          <i class="fas fa-search"></i>
+          <span>Frontend Developer</span>
+        </button>
+        <button class="popular-btn">
+          <i class="fas fa-search"></i>
+          <span>UI/UX Designer</span>
+        </button>
+        <button class="popular-btn">
+          <i class="fas fa-search"></i>
+          <span>Data Scientist</span>
+        </button>
+        <button class="popular-btn">
+          <i class="fas fa-search"></i>
+          <span>Software Engineer</span>
+        </button>
+        <button class="popular-btn">
+          <i class="fas fa-search"></i>
+          <span>Project Manager</span>
+        </button>
+      </div>
+    </section>
+    
+    <section class="featuredcompany">
+      <h3>Featured companies actively hiring</h3>
+      <div class="featcom-cards">
+        <!-- Card 1 -->
+        <div class="feat-card">
+          <div class="company-logo">
+            <img src="image/autosoft.png" alt="Autosoft Logo" style="width:120px ;">
+          </div>
+          <div class="company-info">
+            <h4 class="company-name">Autosoft Dynamics</h4>
+            <p class="company-intro">Leading technology company specializing in innovative software solutions and digital transformation services.</p>
+            <p class="company-location">📍 San Francisco, USA</p>
+            <button class="view-detail-btn">View Details</button>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="feat-card">
+          <div class="company-logo">
+            <img src="image/cmlogo.jpg" alt="Surfwave Logo">
+          </div>
+          <div class="company-info">
+            <h4 class="company-name">Surfwave</h4>
+            <p class="company-intro">Cutting-edge research and development company focused on AI and machine learning technologies.</p>
+            <p class="company-location">📍 New York, USA</p>
+            <button class="view-detail-btn">View Details</button>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="feat-card">
+          <div class="company-logo">
+            <img src="image/new-design.jpg" alt="Design studio Logo">
+          </div>
+          <div class="company-info">
+            <h4 class="company-name">Design Studio</h4>
+            <p class="company-intro">International technology conglomerate with expertise in cloud computing and cybersecurity solutions.</p>
+            <p class="company-location">📍 Seattle, USA</p>
+            <button class="view-detail-btn">View Details</button>
+          </div>
+        </div>
+        <div class="feat-card">
+          <div class="company-logo">
+            <img src="image/new-design.jpg" alt="Design studio Logo">
+          </div>
+          <div class="company-info">
+            <h4 class="company-name">Design Studio</h4>
+            <p class="company-intro">International technology conglomerate with expertise in cloud computing and cybersecurity solutions.</p>
+            <p class="company-location">📍 Seattle, USA</p>
+            <button class="view-detail-btn">View Details</button>
+          </div>
+        </div>
+      </div>
+      <button class="view-detail-btn view-all-btn">View All Company Details</button>
+    </section>
+   
+    <section class="featuredownbg">
+      <img src="image/featuredown.png" alt="Feature background">
+    </section>
+    
+    <!-- Jobs Hiring Now Section -->
+    <section class="jobs-hiring-section">
+      <div class="jobs-container">
+        <h2 class="jobs-title">Jobs Hiring Now</h2>
+        <div class="jobs-carousel">
+          <button class="carousel-arrow left-arrow">‹</button>
+          <div class="jobs-cards">
+            <!-- Job Card 1 -->
+            <div class="job-card">
+              <div class="job-logo">
+                <img src="image/autosoft.png" alt="Multimedia Design">
+              </div>
+              <div class="job-salary">
+                <span class="salary-amount">$3,000 - $7,996</span>
+                <span class="verified-badge">✓ Verified Monthly</span>
+              </div>
+              <div class="job-title">UI UX Designer Required</div>
+              <div class="job-company">Multimedia Design - 1 month ago</div>
+              <div class="job-location">Lara</div>
+              <div class="job-status">Urgently hiring</div>
+              <div class="job-actions">
+                <button class="apply-btn">
+                  <i class="fas fa-bolt"></i>
+                  Apply Now
+                </button>
+                <button class="favorite-btn">
+                  <i class="far fa-heart"></i>
+                </button>
+              </div>
+            </div>
+
+            <!-- Job Card 2 -->
+            <div class="job-card">
+              <div class="job-logo">
+                <img src="image/cmlogo.jpg" alt="Multimedia Design">
+              </div>
+              <div class="job-salary">
+                <span class="salary-amount">$6,000 - $12,000</span>
+                <span class="verified-badge">✓ Verified Monthly</span>
+              </div>
+              <div class="job-title">Project Manager</div>
+              <div class="job-company">Multimedia Design - 1 month ago</div>
+              <div class="job-location">Melbourne</div>
+              <div class="job-status">Urgently hiring</div>
+              <div class="job-actions">
+                <button class="apply-btn">
+                  <i class="fas fa-bolt"></i>
+                  Apply Now
+                </button>
+                <button class="favorite-btn">
+                  <i class="far fa-heart"></i>
+                </button>
+              </div>
+            </div>
+
+            <!-- Job Card 3 -->
+            <div class="job-card">
+              <div class="job-logo">
+                <img src="image/new-design.jpg" alt="Net Design">
+              </div>
+              <div class="job-salary">
+                <span class="salary-amount">$6,000 - $12,000</span>
+                <span class="verified-badge">✓ Verified Monthly</span>
+              </div>
+              <div class="job-title">Senior Php Programer</div>
+              <div class="job-company">Net Design - 1 month ago</div>
+              <div class="job-location">Melbourne</div>
+              <div class="job-status">Urgently hiring</div>
+              <div class="job-actions">
+                <button class="apply-btn">
+                  <i class="fas fa-bolt"></i>
+                  Apply Now
+                </button>
+                <button class="favorite-btn">
+                  <i class="far fa-heart"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-arrow right-arrow">›</button>
+        </div>
+      </div>
+    </section>
+    
+    <!-- New Graduate Banner Section -->
+    <section class="graduate-banner">
+      <div class="banner-container">
+        <div class="banner-image">
+          <img src="image/handshakegirl.png" alt="Professional woman shaking hands">
+        </div>
+        <div class="banner-content">
+          <h2 class="banner-title">New graduate? Explore real opportunities with us.</h2>
+          <div class="banner-buttons">
+            <button class="banner-btn">
+              <div class="btn-icon">
+                <i class="fas fa-arrow-right"></i>
+              </div>
+              <span>Find out about CareerFinders</span>
+            </button>
+            <button class="banner-btn">
+              <div class="btn-icon">
+                <i class="fas fa-arrow-right"></i>
+              </div>
+              <span>Create job CareerFinders</span>
+            </button>
+            <button class="banner-btn">
+              <div class="btn-icon">
+                <i class="fas fa-arrow-right"></i>
+              </div>
+              <span>Find out pricing CareerFinders</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer class="footer-section">
+    <div class="footer-container">
+      <!-- Upper Footer -->
+      <div class="footer-upper">
+        <div class="footer-column">
+          <h3 class="footer-title">Contact Us</h3>
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Level 4, 404, 101 Overton Road, Williams Landing, VIC, 3027</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <span>info@careerfinders.co</span>
+            </div>
+          </div>
+          <div class="social-icons">
+            <a href="#" class="social-icon facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="social-icon twitter">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="social-icon instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-column">
+          <h3 class="footer-title">Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Post a Job</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">About Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h3 class="footer-title">Jobs By Functional Area</h3>
+          <ul class="footer-links">
+            <li><a href="#">Advertising</a></li>
+            <li><a href="#">Architects & Construction</a></li>
+            <li><a href="#">Marketing</a></li>
+            <li><a href="#">Graphic Design</a></li>
+            <li><a href="#">Bank Operation</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Lower Footer -->
+      <div class="footer-lower">
+        <div class="footer-left">
+          <div class="ips-logo">
+            <i class="fas fa-graduation-cap"></i>
+            <span>IPS EDUCATION</span>
+          </div>
+          <p class="copyright-text">
+            All trademarks are the property of their respective owners. All rights reserved © 2025 IPS. 
+            <strong>Abn. No: 021 662 655 665</strong>
+          </p>
+        </div>
+        
+        <div class="footer-right">
+          <div class="business-logos">
+            <div class="business-logo">
+              <i class="fas fa-check-circle"></i>
+              <span>JOB READY PLACEMENTS</span>
+            </div>
+            <div class="business-logo">
+              <i class="fas fa-search"></i>
+              <span>Career Finder</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile menu toggle functionality
+    document.querySelector('.mobile-menu-btn').addEventListener('click', function () {
+      document.querySelector('.mobile-menu').classList.toggle('active');
+    });
+  
+    // Close mobile menu when clicking outside
+    document.addEventListener('click', function (event) {
+      const mobileMenu = document.querySelector('.mobile-menu');
+      const menuBtn = document.querySelector('.mobile-menu-btn');
+  
+      // Fix: Added missing closing parenthesis
+      if (!mobileMenu.contains(event.target) && !menuBtn.contains(event.target)) {
+        mobileMenu.classList.remove('active');
+      }
+    });
+  </script>
+  
+</body>
+</html>
